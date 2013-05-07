@@ -28,7 +28,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        mImageView = (ImageView) findViewById(R.id.previewImageView);
+        mImageView = (ImageView) findViewById(R.id.background);
 
         Button takePhotoButton = (Button) findViewById(R.id.take_photo_button);
         setBtnListenerOrDisable(

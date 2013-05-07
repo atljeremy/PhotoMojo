@@ -106,6 +106,8 @@ public class BaseActivity extends Activity {
                     break;
                 }
             }
+        } else {
+            mImageView.setImageResource(R.drawable.sky_sunset);
         }
     }
 

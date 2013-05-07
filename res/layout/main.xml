@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Take Photo"
-            android:id="@+id/take_photo_button"/>
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Import From Library"
-            android:id="@+id/import_from_lib_button"/>
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/previewImageView" android:layout_gravity="center"/>
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:gravity="center">
+
+    <ImageView android:id="@+id/background"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:src="@drawable/sky_sunset" android:scaleType="centerCrop"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_centerInParent="true">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Take Photo"
+                android:id="@+id/take_photo_button"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Import From Library"
+                android:id="@+id/import_from_lib_button"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
 
