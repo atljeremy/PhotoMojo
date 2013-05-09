@@ -8,6 +8,35 @@
                android:layout_height="fill_parent"
                android:src="@drawable/sky_sunset" android:scaleType="centerCrop"/>
 
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/logoContainer"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_marginTop="20dp"
+                  android:layout_alignLeft="@+id/background"
+                  android:layout_alignTop="@+id/background">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/pm_icon"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:id="@+id/photoMojoLogo"
+                android:textColor="#bbbbbb"
+                android:textSize="40dp"
+                android:gravity="center" android:layout_gravity="center"/>
+
+    </LinearLayout>
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="vertical"
                   android:layout_width="fill_parent"
@@ -16,17 +45,27 @@
                   android:layout_centerInParent="true">
         <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="Take Photo"
                 android:id="@+id/take_photo_button"
                 android:layout_gravity="center"
-                android:layout_marginBottom="50dp"/>
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textColor="#cdcdcd"/>
         <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:text="Import From Library"
                 android:id="@+id/import_from_lib_button"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textColor="#cdcdcd"/>
     </LinearLayout>
 
 </RelativeLayout>

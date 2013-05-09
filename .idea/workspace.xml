@@ -4,7 +4,7 @@
     <option name="fullProfile">
       <profile>
         <option name="device" value="Galaxy Nexus" />
-        <option name="deviceConfiguration" value="Portrait" />
+        <option name="deviceConfiguration" value="Landscape" />
         <option name="localeLanguage" value="bg" />
         <option name="targetHashString" value="android-16" />
         <option name="theme" value="FeatherDefaultTheme.Custom" />
@@ -23,43 +23,44 @@
         <option name="visible" value="false" />
       </GlobalState>
     </option>
+    <device-configurations>
+      <entry key="file://$PROJECT_DIR$/res/layout-land/main.xml" value="Portrait" />
+    </device-configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28f2b06-67da-4d86-b5c1-437375abdab5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sky_sunset.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/sky_sunset.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/sky_sunset.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/sky_sunset.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/take_photo.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoMojo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MyActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367889974156" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367891234738" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368044360000" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/R.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367857852122" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/Manifest.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367857852122" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/BuildConfig.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367858099321" ignored="false" />
     <file path="/themes.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367858246403" ignored="false" />
     <file path="/PhotoHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870377292" ignored="false" />
     <file path="/PhotoIntentActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367891926954" ignored="false" />
-    <file path="/a.dummy" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367897687644" ignored="false" />
+    <file path="/a.dummy" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368039724442" ignored="false" />
     <file path="/AlbumStorageDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367892982718" ignored="false" />
     <file path="/BaseAlbumDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870768314" ignored="false" />
     <file path="/FroyoAlbumDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870772038" ignored="false" />
     <file path="/strings.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870941588" ignored="false" />
-    <file path="/Dummy.txt" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367898378193" ignored="false" />
-    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367896056465" ignored="false" />
+    <file path="/Dummy.txt" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368063028875" ignored="false" />
+    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368040107741" ignored="false" />
     <file path="/fragment.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367893074874" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/Manifest.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894473757" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/BuildConfig.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894618200" ignored="false" />
     <file path="/PhotoEditorHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367891727514" ignored="false" />
-    <file path="/BaseActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367900414810" ignored="false" />
-    <file path="/main.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367898784794" ignored="false" />
+    <file path="/BaseActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368062910268" ignored="false" />
+    <file path="/main.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368063852385" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -110,9 +112,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" line="57" class="com.jeremyfox.PhotoMojo.MainActivity" package="com.jeremyfox.PhotoMojo">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" line="68" class="com.jeremyfox.PhotoMojo.MainActivity" package="com.jeremyfox.PhotoMojo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -127,7 +128,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" line="81" class="com.jeremyfox.PhotoMojo.Activities.BaseActivity" package="com.jeremyfox.PhotoMojo.Activities">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" line="62" class="com.jeremyfox.PhotoMojo.Activities.BaseActivity" package="com.jeremyfox.PhotoMojo.Activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" line="69" class="com.jeremyfox.PhotoMojo.Activities.BaseActivity" package="com.jeremyfox.PhotoMojo.Activities">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -155,38 +171,22 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#672#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#1337#1709#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-              </folding>
+            <state line="41" column="18" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoEditorHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/PhotoEditorHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="78" selection-start="3070" selection-end="3080" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="21" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.62608695">
+            <state line="48" column="66" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-15.2">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onCreate#0;class#BaseActivity#0" expanded="true" />
                 <element signature="method#onSaveInstanceState#0;class#BaseActivity#0" expanded="true" />
                 <element signature="method#onRestoreInstanceState#0;class#BaseActivity#0" expanded="true" />
+                <element signature="method#onActivityResult#0;class#BaseActivity#0" expanded="true" />
                 <element signature="method#handleBigCameraPhoto#0;class#BaseActivity#0" expanded="true" />
                 <element signature="method#setPic#0;class#BaseActivity#0" expanded="true" />
                 <element signature="method#galleryAddPic#0;class#BaseActivity#0" expanded="true" />
@@ -203,10 +203,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/Activity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="53" column="22" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-22.8">
               <folding />
             </state>
           </provider>
@@ -214,13 +217,22 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
-            <state line="8" column="15" selection-start="404" selection-end="404" vertical-scroll-proportion="-6.08">
+            <state line="13" column="49" selection-start="650" selection-end="650" vertical-scroll-proportion="-9.88">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="48" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -242,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/FroyoAlbumDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/BaseAlbumDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/AlbumStorageDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/PhotoIntentActivity.java" />
@@ -254,18 +265,116 @@
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/AlbumStorageDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/PhotoIntentActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
+    <option name="x" value="354" />
     <option name="y" value="22" />
     <option name="width" value="2167" />
     <option name="height" value="1400" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintUseCompoundDrawables</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +389,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -326,10 +435,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -341,59 +446,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Activities" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,7 +464,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="layout-land" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,34 +483,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhotoMojo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,15 +511,19 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/layout-land" />
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/res/drawable-ldpi" />
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.PhotoMojo">
@@ -530,19 +559,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -569,6 +585,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -659,10 +688,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="22" width="2167" height="1400" extended-state="0" />
-    <editor active="true" />
+    <frame x="354" y="22" width="2167" height="1400" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2956153" sideWeight="0.6703125" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.291372" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,16 +702,14 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18387553" sideWeight="0.6703125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18357717" sideWeight="0.6703125" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24988213" sideWeight="0.6703125" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27864215" sideWeight="0.6703125" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2739274" sideWeight="0.6703125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.6703125" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -690,8 +717,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24988213" sideWeight="0.6703125" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -760,13 +789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/FroyoAlbumDirFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/BaseAlbumDirFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
@@ -776,53 +798,27 @@
     </entry>
     <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="16" selection-start="4788" selection-end="4788" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="method#sendBroadcast#0;class#ContextWrapper#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="99" column="16" selection-start="4788" selection-end="4788" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Aviary-SDK/libs/aviary-headless-library.jar!/com/aviary/android/feather/headless/utils/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.077424616">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.077424616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/aviary-credentials.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/take_photo.xml">
-      <provider editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="265" selection-end="265" vertical-scroll-proportion="-5.32">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+        <state line="0" column="18" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/graphics/drawable/Drawable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="199" selection-end="199" vertical-scroll-proportion="0.13953489">
-          <folding>
-            <element signature="method#Drawable#0;class#Drawable#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="11" selection-start="199" selection-end="199" vertical-scroll-proportion="0.13953489" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/graphics/drawable/BitmapDrawable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#BitmapDrawable#2;class#BitmapDrawable#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="19" column="11" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/AlbumStorageDirFactory.java">
@@ -832,67 +828,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/PhotoEditorHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="137" selection-end="137" vertical-scroll-proportion="0.07080746">
+        <state line="65" column="78" selection-start="3070" selection-end="3080" vertical-scroll-proportion="0.92424244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="0.015310233">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="67" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.59518075">
+        <state line="18" column="48" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="404" selection-end="404" vertical-scroll-proportion="-6.08">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/PhotoEditorHelper.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="78" selection-start="3070" selection-end="3080" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="18" selection-start="69" selection-end="69" vertical-scroll-proportion="0.047204968">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#672#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#1337#1709#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="41" column="18" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="21" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.62608695">
+        <state line="48" column="66" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-15.2">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#onSaveInstanceState#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#onRestoreInstanceState#0;class#BaseActivity#0" expanded="true" />
+            <element signature="method#onActivityResult#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#handleBigCameraPhoto#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#setPic#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#galleryAddPic#0;class#BaseActivity#0" expanded="true" />
@@ -905,6 +884,26 @@
             <element signature="method#getAlbumDir#0;class#BaseActivity#0" expanded="true" />
             <element signature="method#getRealPathFromURI#0;class#BaseActivity#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="13" column="49" selection-start="650" selection-end="650" vertical-scroll-proportion="-9.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="2342" selection-end="2342" vertical-scroll-proportion="-22.8">
+          <folding />
         </state>
       </provider>
     </entry>

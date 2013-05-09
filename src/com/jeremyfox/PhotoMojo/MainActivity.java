@@ -1,12 +1,16 @@
 package com.jeremyfox.PhotoMojo;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import com.jeremyfox.PhotoMojo.Activities.BaseActivity;
 import com.jeremyfox.PhotoMojo.Helpers.PhotoEditorHelper;
 
@@ -26,7 +30,14 @@ public class MainActivity extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.main);
+
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/LANENAR_.ttf");
+        ((TextView)findViewById(R.id.photoMojoLogo)).setTypeface(typeface);
 
         mImageView = (ImageView) findViewById(R.id.background);
 

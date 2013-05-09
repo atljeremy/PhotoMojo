@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+    <ImageView android:id="@+id/background"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:src="@drawable/sky_sunset" android:scaleType="centerCrop"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/content_container"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="center"
+                  android:weightSum="10">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/logoContainer"
+                      android:orientation="horizontal"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_weight="4">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/pm_icon"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:id="@+id/photoMojoLogo"
+                    android:textColor="#bbbbbb"
+                    android:textSize="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/buttons_layout"
+                      android:orientation="vertical"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:layout_weight="6">
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:text="Take Photo"
+                    android:id="@+id/take_photo_button"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:textColor="#cdcdcd"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:text="Import From Library"
+                    android:id="@+id/import_from_lib_button"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:textColor="#cdcdcd"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
