@@ -4,6 +4,192 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="75A42866FBD56EFABA6B1D501C444F22" />
+  <component name="JavaDocConfiguration_1.0.2">
+    <GENERAL>
+      <MODE>UPDATE</MODE>
+      <OVERRIDDEN_METHODS>false</OVERRIDDEN_METHODS>
+      <LEVELS>
+        <LEVEL>FIELD</LEVEL>
+        <LEVEL>TYPE</LEVEL>
+        <LEVEL>METHOD</LEVEL>
+      </LEVELS>
+      <VISIBILITIES>
+        <VISIBILITY>PUBLIC</VISIBILITY>
+        <VISIBILITY>PROTECTED</VISIBILITY>
+      </VISIBILITIES>
+    </GENERAL>
+    <TEMPLATES>
+      <CLASSES>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+interface\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The interface $name.\n
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+enum\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The enum $name.\n
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>^.*(public|protected|private)*.+class\s+\w+.*</KEY>
+          <VALUE>/**\n
+ * The type $name.\n
+ */</VALUE>
+        </CLASS>
+        <CLASS>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * The type $name.\n
+ */</VALUE>
+        </CLASS>
+      </CLASSES>
+      <CONSTRUCTORS>
+        <CONSTRUCTOR>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * Instantiates a new $name.\n
+
+     #if(!$element.parameterList.parameters.isEmpty())
+         *\n
+     #end
+     #foreach($parameter in $element.parameterList.parameters)
+         * @param $parameter.name the $paramNames[$parameter.name]\n
+     #end
+
+     #if(!$element.throwsList.referenceElements.isEmpty())
+         *\n
+     #end
+     #foreach($exception in $element.throwsList.referenceElements)
+         * @throws $exception.referenceName the $exceptionNames[$exception.referenceName]\n
+     #end
+
+ */</VALUE>
+        </CONSTRUCTOR>
+      </CONSTRUCTORS>
+      <METHODS>
+        <METHOD>
+          <KEY>^.*(public|protected|private)*\s*.*(\w(\s*&lt;.+&gt;)*)+\s+get\w+\s*\(.*\).+</KEY>
+          <VALUE>/**\n
+ * Gets $partName.\n
+
+     #if(!$element.parameterList.parameters.isEmpty())
+         *\n
+     #end
+     #foreach($parameter in $element.parameterList.parameters)
+         * @param $parameter.name the $paramNames[$parameter.name]\n
+     #end
+
+     #if($isNotVoid)
+         *\n
+         * @return the $partName\n
+     #end
+
+     #if(!$element.throwsList.referenceElements.isEmpty())
+         *\n
+     #end
+     #foreach($exception in $element.throwsList.referenceElements)
+         * @throws $exception.referenceName the $exceptionNames[$exception.referenceName]\n
+     #end
+
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>^.*(public|protected|private)*\s*.*(void|\w(\s*&lt;.+&gt;)*)+\s+set\w+\s*\(.*\).+</KEY>
+          <VALUE>/**\n
+ * Sets $partName.\n
+
+     #if(!$element.parameterList.parameters.isEmpty())
+         *\n
+     #end
+     #foreach($parameter in $element.parameterList.parameters)
+         * @param $parameter.name the $paramNames[$parameter.name]\n
+     #end
+
+     #if($isNotVoid)
+         *\n
+         * @return the $partName\n
+     #end
+
+     #if(!$element.throwsList.referenceElements.isEmpty())
+         *\n
+     #end
+     #foreach($exception in $element.throwsList.referenceElements)
+         * @throws $exception.referenceName the $exceptionNames[$exception.referenceName]\n
+     #end
+
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>^.*((public\s+static)|(static\s+public))\s+void\s+main\s*\(\s*String\s*(\[\s*\]|\.\.\.)\s+\w+\s*\).+</KEY>
+          <VALUE>/**\n
+ * The entry point of application.\n
+
+     #if(!$element.parameterList.parameters.isEmpty())
+         *\n
+     #end
+
+     * @param $element.parameterList.parameters[0].name the input arguments\n
+
+     #if(!$element.throwsList.referenceElements.isEmpty())
+         *\n
+     #end
+     #foreach($exception in $element.throwsList.referenceElements)
+         * @throws $exception.referenceName the $exceptionNames[$exception.referenceName]\n
+     #end
+
+ */</VALUE>
+        </METHOD>
+        <METHOD>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * $name#if($partName.isEmpty()) $return#end.\n
+
+     #if(!$element.parameterList.parameters.isEmpty())
+         *\n
+     #end
+     #foreach($parameter in $element.parameterList.parameters)
+         * @param $parameter.name the $paramNames[$parameter.name]\n
+     #end
+
+     #if($isNotVoid)
+         *\n
+         * @return the $return\n
+     #end
+
+     #if(!$element.throwsList.referenceElements.isEmpty())
+         *\n
+     #end
+     #foreach($exception in $element.throwsList.referenceElements)
+         * @throws $exception.referenceName the $exceptionNames[$exception.referenceName]\n
+     #end
+
+ */</VALUE>
+        </METHOD>
+      </METHODS>
+      <FIELDS>
+        <FIELD>
+          <KEY>^.*(public|protected|private)*.+static.*(\w\s\w)+.+</KEY>
+          <VALUE>/**\n
+ * The constant $element.getName().\n
+ */</VALUE>
+        </FIELD>
+        <FIELD>
+          <KEY>^.*(public|protected|private)*.*(\w\s\w)+.+</KEY>
+          <VALUE>/**\n
+ * The $name.\n
+ */</VALUE>
+        </FIELD>
+        <FIELD>
+          <KEY>.+</KEY>
+          <VALUE>/**\n
+ * The $name.\n
+ */</VALUE>
+        </FIELD>
+      </FIELDS>
+    </TEMPLATES>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android 4.1.2" project-jdk-type="Android SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

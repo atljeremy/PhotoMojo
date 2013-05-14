@@ -1,6 +1,7 @@
 package com.jeremyfox.PhotoMojo;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.jeremyfox.PhotoMojo.Activities.BaseActivity;
+import com.jeremyfox.PhotoMojo.Helpers.FileStorageHelper;
 import com.jeremyfox.PhotoMojo.Helpers.PhotoEditorHelper;
 
 public class MainActivity extends BaseActivity {
@@ -40,6 +42,10 @@ public class MainActivity extends BaseActivity {
         ((TextView)findViewById(R.id.photoMojoLogo)).setTypeface(typeface);
 
         mImageView = (ImageView) findViewById(R.id.background);
+        if (FileStorageHelper.hasLatestPhoto(this)) {
+            Bitmap latestPhoto = FileStorageHelper.getLatestPhoto(this);
+            if (null != latestPhoto) mImageView.setImageBitmap(latestPhoto);
+        }
 
         Button takePhotoButton = (Button) findViewById(R.id.take_photo_button);
         setBtnListenerOrDisable(

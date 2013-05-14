@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import com.jeremyfox.PhotoMojo.Helpers.FileStorageHelper;
 import com.jeremyfox.PhotoMojo.Helpers.PhotoEditorHelper;
 import com.jeremyfox.PhotoMojo.R;
 import com.jeremyfox.PhotoMojo.Vendor.AlbumStorageDirFactory;
@@ -147,6 +148,8 @@ public class BaseActivity extends Activity {
 		/* Associate the Bitmap to the ImageView */
         mImageView.setImageBitmap(mImageBitmap);
         mImageView.setVisibility(View.VISIBLE);
+
+        FileStorageHelper.saveLatestPhoto(this, mImageBitmap);
     }
 
     private void galleryAddPic() {
@@ -236,18 +239,13 @@ public class BaseActivity extends Activity {
         return f;
     }
 
-    /* Photo album for this application */
-    private String getAlbumName() {
-        return getString(R.string.album_name);
-    }
-
 
     private File getAlbumDir() {
         File storageDir = null;
 
         if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
 
-            storageDir = mAlbumStorageDirFactory.getAlbumStorageDir(getAlbumName());
+            storageDir = mAlbumStorageDirFactory.getAlbumStorageDir(FileStorageHelper.getAlbumName(this));
 
             if (storageDir != null) {
                 if (! storageDir.mkdirs()) {
