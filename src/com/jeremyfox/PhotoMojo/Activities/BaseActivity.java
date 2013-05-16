@@ -92,7 +92,7 @@ public class BaseActivity extends Activity {
                     if (null != mImageView && null != imageUri) {
                         mImageView.setImageURI(imageUri);
                     }
-                    NotificationHelper.createNotification(this, "Finished saving your photo");
+                    NotificationHelper.createNotification(this, "Finished saving your photo", FileStorageHelper.getLatestPhoto(this));
                     break;
 
                 case ACTION_TAKE_PHOTO_B: {
