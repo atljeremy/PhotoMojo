@@ -10,6 +10,7 @@
     <!-- REQUIRED PERMISSIONS -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-feature android:name="android.hardware.camera" />
 
     <!-- OPTIONAL PERMISSION, used to enhance the wheel experience -->
@@ -59,6 +60,8 @@
                 android:screenOrientation="unspecified"
                 android:theme="@style/FeatherDefaultTheme.Custom"
                 android:process=":standalone" />
+
+        <receiver android:process=":remote" android:name=".Helpers.NotificationHelper"></receiver>
 
         <!-- Aviary Receiver must be defined here. gets the newly installed plugins -->
         <receiver

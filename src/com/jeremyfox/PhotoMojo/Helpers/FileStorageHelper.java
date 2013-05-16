@@ -31,6 +31,8 @@ public abstract class FileStorageHelper {
      * Saves the latest photo.
      *
      * @param context the context
+     * @param image the image
+     * @return the boolean
      */
     public static boolean saveLatestPhoto(Context context, Bitmap image) {
         File path = context.getExternalFilesDir(null);
@@ -62,6 +64,12 @@ public abstract class FileStorageHelper {
         }
     }
 
+    /**
+     * Gets latest photo.
+     *
+     * @param context the context
+     * @return the latest photo
+     */
     public static Bitmap getLatestPhoto(Context context) {
         File path = context.getExternalFilesDir(null);
         String fullPath = path.getAbsolutePath() + getAlbumName(context);
@@ -111,6 +119,12 @@ public abstract class FileStorageHelper {
             return file.exists();
         }
         return false;
+    }
+
+    public static String getLatestPhotoURL(Context context) {
+        File path = context.getExternalFilesDir(null);
+        String fullPath = path.getAbsolutePath() + getAlbumName(context) + "/" + FILE_NAME;
+        return fullPath;
     }
 
 }

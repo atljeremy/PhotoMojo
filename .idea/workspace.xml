@@ -29,16 +29,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28f2b06-67da-4d86-b5c1-437375abdab5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoMojo.iml" afterPath="$PROJECT_DIR$/PhotoMojo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoMojo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/MyActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367889974156" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368044360000" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670087584" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/R.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367857852122" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/Manifest.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367857852122" ignored="false" />
     <file path="$USER_HOME$/Downloads/Aviary-Sample/gen/com/aviary/launcher/BuildConfig.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367858099321" ignored="false" />
@@ -50,16 +54,18 @@
     <file path="/BaseAlbumDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870768314" ignored="false" />
     <file path="/FroyoAlbumDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870772038" ignored="false" />
     <file path="/strings.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870941588" ignored="false" />
-    <file path="/Dummy.txt" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368496844327" ignored="false" />
-    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368502055643" ignored="false" />
+    <file path="/Dummy.txt" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670611767" ignored="false" />
+    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368672828908" ignored="false" />
     <file path="/fragment.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367893074874" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/Manifest.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894473757" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/BuildConfig.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894618200" ignored="false" />
     <file path="/PhotoEditorHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367891727514" ignored="false" />
-    <file path="/BaseActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368501838408" ignored="false" />
-    <file path="/main.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368063852385" ignored="false" />
-    <file path="/FileStorageHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368503450199" ignored="false" />
+    <file path="/BaseActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670484317" ignored="false" />
+    <file path="/main.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670765244" ignored="false" />
+    <file path="/FileStorageHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368671938649" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368499431127" ignored="false" />
+    <file path="/NotificationHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670279986" ignored="false" />
+    <file path="$PROJECT_DIR$/../My_Notes/src/com/jeremyfox/My_Notes/Fragments/NotesListFragment.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670683203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,37 @@
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" line="74" class="com.jeremyfox.PhotoMojo.MainActivity" package="com.jeremyfox.PhotoMojo">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="45" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="27" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="56" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -137,29 +173,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+            <state line="96" column="0" selection-start="3274" selection-end="3274" vertical-scroll-proportion="0.36385542">
+              <folding>
+                <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onDestroy#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="7" selection-start="386" selection-end="386" vertical-scroll-proportion="-7.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NotificationHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="56" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#createNotification#0;class#NotificationHelper#0" expanded="true" />
+                <element signature="method#setNotificationTimer#0;class#NotificationHelper#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3089" selection-end="3089" vertical-scroll-proportion="0.91361046">
+            <state line="153" column="62" selection-start="5507" selection-end="5507" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="method#onCreate#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#onSaveInstanceState#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#onRestoreInstanceState#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#handleBigCameraPhoto#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#setPic#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#dispatchTakePictureIntent#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#createImageFile#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#setUpPhotoFile#0;class#BaseActivity#0" expanded="true" />
-                <element signature="method#getAlbumDir#0;class#BaseActivity#0" expanded="true" />
+                <element signature="method#onActivityResult#0;class#BaseActivity#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,7 +222,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="-2.28">
+            <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,13 +231,9 @@
       <file leaf-file-name="FileStorageHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0">
+            <state line="125" column="80" selection-start="3696" selection-end="3696" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getAlbumName#0;class#FileStorageHelper#0" expanded="true" />
-                <element signature="method#saveLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
-                <element signature="method#deleteLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
-                <element signature="method#hasLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
+                <element signature="method#getLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,8 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/AlbumStorageDirFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/example/PhotoMojo/Vendor/PhotoIntentActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/BaseAlbumDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/FroyoAlbumDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MyActivity.java" />
@@ -241,19 +289,21 @@
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/AlbumStorageDirFactory.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/PhotoIntentActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="851" />
+    <option name="x" value="584" />
     <option name="y" value="22" />
-    <option name="width" value="1670" />
+    <option name="width" value="1922" />
     <option name="height" value="1400" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -381,8 +431,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -513,8 +561,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoMojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoMojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aviary-SDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -713,36 +777,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="851" y="22" width="1670" height="1400" extended-state="0" />
+    <frame x="584" y="22" width="1922" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2518473" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18349753" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25800493" sideWeight="0.6703125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18336888" sideWeight="0.6703125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2518473" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24988213" sideWeight="0.6703125" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25800493" sideWeight="0.6703125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -814,56 +878,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="16" selection-start="4788" selection-end="4788" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/Aviary-SDK/libs/aviary-headless-library.jar!/com/aviary/android/feather/headless/utils/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.077424616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/aviary-credentials.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/graphics/drawable/Drawable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="199" selection-end="199" vertical-scroll-proportion="0.13953489" />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/graphics/drawable/BitmapDrawable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="28" selection-start="477" selection-end="477" vertical-scroll-proportion="0.015310233" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Vendor/AlbumStorageDirFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="142" selection-end="142" vertical-scroll-proportion="0.07575758">
+        <state line="5" column="35" selection-start="142" selection-end="142" vertical-scroll-proportion="0.07575758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/PhotoEditorHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="78" selection-start="3070" selection-end="3080" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/content/Context.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="467" selection-end="489" vertical-scroll-proportion="0.16666667">
+        <state line="105" column="44" selection-start="5546" selection-end="5546" vertical-scroll-proportion="0.33287483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -878,60 +917,91 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="115" selection-end="115" vertical-scroll-proportion="-2.28">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="13" column="49" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/PhotoEditorHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="78" selection-start="3070" selection-end="3080" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/content/Context.class">
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/NotificationManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="44" selection-start="5546" selection-end="5546" vertical-scroll-proportion="0.33287483">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0">
+        <state line="9" column="16" selection-start="243" selection-end="243" vertical-scroll-proportion="0.12140575">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getAlbumName#0;class#FileStorageHelper#0" expanded="true" />
-            <element signature="method#saveLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
-            <element signature="method#deleteLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
-            <element signature="method#hasLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
+            <element signature="method#notify#0;class#NotificationManager#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/android/app/AlarmManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="713" selection-end="713" vertical-scroll-proportion="0.4120482">
+          <folding>
+            <element signature="method#set#0;class#AlarmManager#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/android-sdk-mac_x86/platforms/android-16/android.jar!/java/lang/System.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="30" selection-start="735" selection-end="735" vertical-scroll-proportion="0.3325301">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="85" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="56" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#createNotification#0;class#NotificationHelper#0" expanded="true" />
+            <element signature="method#setNotificationTimer#0;class#NotificationHelper#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="386" selection-end="386" vertical-scroll-proportion="-7.6">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3089" selection-end="3089" vertical-scroll-proportion="0.91361046">
+        <state line="153" column="62" selection-start="5507" selection-end="5507" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#onCreate#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#onSaveInstanceState#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#onRestoreInstanceState#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#handleBigCameraPhoto#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#setPic#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#dispatchTakePictureIntent#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#createImageFile#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#setUpPhotoFile#0;class#BaseActivity#0" expanded="true" />
-            <element signature="method#getAlbumDir#0;class#BaseActivity#0" expanded="true" />
+            <element signature="method#onActivityResult#0;class#BaseActivity#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="80" selection-start="3696" selection-end="3696" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#getLatestPhoto#0;class#FileStorageHelper#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="3274" selection-end="3274" vertical-scroll-proportion="0.36385542">
+          <folding>
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onDestroy#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -988,12 +1058,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Aviary-SDK</last-edited>
+          <last-edited>Android|Aviary-SDK</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

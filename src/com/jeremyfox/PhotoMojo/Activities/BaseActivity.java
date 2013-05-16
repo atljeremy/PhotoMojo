@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import com.jeremyfox.PhotoMojo.Helpers.FileStorageHelper;
+import com.jeremyfox.PhotoMojo.Helpers.NotificationHelper;
 import com.jeremyfox.PhotoMojo.Helpers.PhotoEditorHelper;
 import com.jeremyfox.PhotoMojo.R;
 import com.jeremyfox.PhotoMojo.Vendor.AlbumStorageDirFactory;
@@ -91,6 +92,7 @@ public class BaseActivity extends Activity {
                     if (null != mImageView && null != imageUri) {
                         mImageView.setImageURI(imageUri);
                     }
+                    NotificationHelper.createNotification(this, "Finished saving your photo");
                     break;
 
                 case ACTION_TAKE_PHOTO_B: {

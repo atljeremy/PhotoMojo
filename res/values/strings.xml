@@ -3,4 +3,5 @@
     <string name="app_name">PhotoMojo</string>
     <string name="album_name">PhotoMojo</string>
     <string name="cannot">Cannot</string>
+    <string name="share_photo">Share Photo</string>
 </resources>
