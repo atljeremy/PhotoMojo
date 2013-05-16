@@ -29,7 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28f2b06-67da-4d86-b5c1-437375abdab5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" afterPath="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" />
     </list>
     <ignored path="PhotoMojo.iws" />
@@ -48,7 +48,7 @@
     <file path="/FroyoAlbumDirFactory.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870772038" ignored="false" />
     <file path="/strings.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367870941588" ignored="false" />
     <file path="/Dummy.txt" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670611767" ignored="false" />
-    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368672828908" ignored="false" />
+    <file path="/MainActivity.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368674197877" ignored="false" />
     <file path="/fragment.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367893074874" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/Manifest.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894473757" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/jeremyfox/PhotoMojo/BuildConfig.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1367894618200" ignored="false" />
@@ -57,7 +57,7 @@
     <file path="/main.xml" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670765244" ignored="false" />
     <file path="/FileStorageHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368671938649" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368499431127" ignored="false" />
-    <file path="/NotificationHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368673640224" ignored="false" />
+    <file path="/NotificationHelper.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368674002412" ignored="false" />
     <file path="$PROJECT_DIR$/../My_Notes/src/com/jeremyfox/My_Notes/Fragments/NotesListFragment.java" changelist="c28f2b06-67da-4d86-b5c1-437375abdab5" time="1368670683203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="46" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="48" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -105,7 +105,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="57" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" line="59" class="com.jeremyfox.PhotoMojo.Helpers.NotificationHelper" package="com.jeremyfox.PhotoMojo.Helpers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -166,13 +166,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="47" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.0">
+            <state line="85" column="78" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.4554217">
               <folding>
                 <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-                <element signature="method#onDestroy#0;class#MainActivity#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="true" />
                 <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="true" />
               </folding>
             </state>
@@ -188,12 +188,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotificationHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NotificationHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="27" selection-start="895" selection-end="895" vertical-scroll-proportion="0.31325302">
+            <state line="48" column="89" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="method#onReceive#0;class#NotificationHelper#0" expanded="true" />
+                <element signature="method#createNotification#0;class#NotificationHelper#0" expanded="true" />
                 <element signature="method#setNotificationTimer#0;class#NotificationHelper#0" expanded="true" />
               </folding>
             </state>
@@ -287,9 +287,9 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/FileStorageHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Activities/BaseActivity.java" />
         <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -978,23 +978,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="47" selection-start="3267" selection-end="3267" vertical-scroll-proportion="0.0">
+        <state line="48" column="89" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onDestroy#0;class#MainActivity#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#createNotification#0;class#NotificationHelper#0" expanded="true" />
+            <element signature="method#setNotificationTimer#0;class#NotificationHelper#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/Helpers/NotificationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jeremyfox/PhotoMojo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="895" selection-end="895" vertical-scroll-proportion="0.31325302">
+        <state line="85" column="78" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.4554217">
           <folding>
-            <element signature="method#onReceive#0;class#NotificationHelper#0" expanded="true" />
-            <element signature="method#setNotificationTimer#0;class#NotificationHelper#0" expanded="true" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" expanded="true" />
           </folding>
         </state>
       </provider>

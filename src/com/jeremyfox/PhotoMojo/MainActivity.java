@@ -81,10 +81,9 @@ public class MainActivity extends BaseActivity {
     }
 
     @Override
-    public void onDestroy() {
+    public void onStop() {
+        super.onStop();
         NotificationHelper.setNotificationTimer(this.getApplicationContext());
-
-        super.onDestroy();
     }
 
     @Override

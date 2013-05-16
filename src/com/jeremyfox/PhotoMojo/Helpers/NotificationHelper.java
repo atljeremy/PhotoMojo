@@ -38,14 +38,16 @@ public class NotificationHelper extends BroadcastReceiver {
         notificationBuilder.setContentIntent(resultPendingIntent);
         NotificationManager mNotificationManager =
                 (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
-        mNotificationManager.notify(0, notificationBuilder.build());
+        Notification notification = notificationBuilder.build();
+        notification.tickerText = message;
+        mNotificationManager.notify(0, notification);
 
     }
 
     @Override
     public void onReceive(Context context, Intent intent) {
         PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
-        PowerManager.WakeLock wl = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "YOUR TAG");
+        PowerManager.WakeLock wl = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "TAG");
         wl.acquire();
 
         String message = "Don't forget to stop back soon";
